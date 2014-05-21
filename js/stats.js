@@ -41,13 +41,17 @@ var calcMean = function(){
     }
 };
 
+var calcStats = function(){
+    calcMean();
+};
+
 var initApp = function(){
     initInputElements();
 
     outputMean = document.querySelector("#mean");
 
-    var calcMeanButton = document.querySelector("#calcMean");
-    calcMeanButton.addEventListener("click", calcMean);
+    var calcMeanButton = document.querySelector("#start");
+    calcMeanButton.addEventListener("click", calcStats);
 };
 
 initApp();
