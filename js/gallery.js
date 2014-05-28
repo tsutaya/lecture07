@@ -9,7 +9,8 @@ var photoList = [
     {src:	"img/side.png", title: "横"},
     {src:   "img/hiyaasityuuka.png", title: "冷やし中華"},
 
-];
+];//photoListの中に新たに画像を入れた。フォルダ「img」の中にhiyaasityuuka.pngを入れ
+　//表示させた
 
 var isReady = function(){
     return photoListElement != null &&
