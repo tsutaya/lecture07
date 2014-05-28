@@ -7,12 +7,14 @@ var photoList = [
 	  {src: "img/201008.png", title: "もう1回8月"},
     {src: "img/front.png", title: "前"},
 <<<<<<< HEAD
+<<<<<<< HEAD
     {src:	"img/side.png", title: "横"},
     {src:   "img/hiyaasityuuka.png", title: "冷やし中華"},
 
-];//photoListの中に新たに画像を入れた。フォルダ「img」の中にhiyaasityuuka.pngを入れ
-　//表示させた
+];
 =======
+=======
+>>>>>>> parent of ad2a5b7... 課題１
     {src:	"img/side.png", title: "横"}
 ];
 >>>>>>> parent of ad2a5b7... 課題１
